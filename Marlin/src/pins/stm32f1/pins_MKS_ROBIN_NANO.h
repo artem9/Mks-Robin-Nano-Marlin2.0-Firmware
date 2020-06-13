@@ -81,9 +81,9 @@
 #define E0_STEP_PIN                         PD6
 #define E0_DIR_PIN                          PD3
 
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PA6
-#define E1_DIR_PIN                          PA1
+//#define E1_ENABLE_PIN                       PA3
+//#define E1_STEP_PIN                         PA6
+//#define E1_DIR_PIN                          PA1
 
 //
 // Temperature Sensors
@@ -110,18 +110,18 @@
 //
 // Misc. Functions
 //
-//#define POWER_LOSS_PIN                    PA2   // PW_DET
-//#define PS_ON_PIN                         PA3   // PW_OFF
+#define POWER_LOSS_PIN                    PA2   // PW_DET
+#define PS_ON_PIN                         PA3   // PW_OFF
 
-//#define SUICIDE_PIN 						            PB2     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
-//#define SUICIDE_PIN_INVERTING 			        false
+#define SUICIDE_PIN 						            PB2     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
+#define SUICIDE_PIN_INVERTING 			        false
 
-//#define KILL_PIN 						                PA2     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
-//#define KILL_PIN_INVERTING 				          true     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
+#define KILL_PIN 						                PA2     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
+#define KILL_PIN_INVERTING 				          true     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
 
 //#define SERVO0_PIN                          PA8   // Enable BLTOUCH support ROBIN NANO v1.2 ONLY
 
-//#define LED_PIN                             PB2
+#define LED_PIN                             PB2
 
 #define MT_DET_1_PIN				PA4
 #define MT_DET_PIN_INVERTING		false
@@ -140,6 +140,7 @@
 // LCD / Controller
 //
 #define BEEPER_PIN                          PC5
+#define SD_DETECT_PIN      PD12
 
 /**
  * Note: MKS Robin TFT screens use various TFT controllers.
